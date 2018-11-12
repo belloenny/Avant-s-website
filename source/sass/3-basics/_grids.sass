@@ -1,0 +1,111 @@
+.w-row
+  &:before, &:after
+    content: " "
+    display: table
+    grid-column-start: 1
+    grid-row-start: 1
+    grid-column-end: 2
+    grid-row-end: 2    
+.w-row:after
+  clear: both  
+.w-col-5
+  width: 41.66666667%
+.w-col
+  position: relative
+  float: left
+  min-height: 1px
+  padding-left: 10px
+  padding-right: 10px
+.righ
+  display: -webkit-box
+  display: -webkit-flex
+  display: -ms-flexbox
+  display: flex
+  height: 100%
+  -webkit-box-orient: vertical
+  -webkit-box-direction: normal
+  -webkit-flex-direction: column
+  -ms-flex-direction: column
+  flex-direction: column
+  -webkit-box-pack: center
+  -webkit-justify-content: center
+  -ms-flex-pack: center
+  justify-content: center
+  -webkit-box-align: center
+  -webkit-align-items: center
+  -ms-flex-align: center
+  align-items: center
+.w-col-7
+  width: 58.33333333%
+.w-clearfix
+  &:before
+    content: " "
+    display: table
+    grid-column-start: 1
+    grid-row-start: 1
+    grid-column-end: 2
+    grid-row-end: 2
+  &:after
+    content: " "
+    display: table
+    grid-column-start: 1
+    grid-row-start: 1
+    grid-column-end: 2
+    grid-row-end: 2
+    clear: both
+#w-node-2fab49fd9cf1, #w-node-4e0969bbdd06, #w-node-5db2a567d755
+  grid-column-start: 1
+  grid-column-end: 2
+  grid-row-start: 2
+  grid-row-end: 3
+#w-node-07c0c2c32c65, #w-node-f4004b49efe1, #w-node-e6509ffbd390
+  grid-column-start: 1
+  grid-column-end: 2
+  grid-row-start: 1
+  grid-row-end: 2
+#w-node-58075ea8cbac
+  grid-column-start: 4
+  grid-column-end: 5
+  grid-row-start: 1
+  grid-row-end: 2
+#w-node-f85dff3dd5ed
+  grid-column-start: 3
+  grid-column-end: 4
+  grid-row-start: 1
+  grid-row-end: 2
+@media screen and (max-width: 767px)
+  #w-node-f85dff3dd5ed
+    grid-column-start: 3
+    grid-column-end: 4
+    grid-row-start: 1
+    grid-row-end: 2
+#w-node-69d2d9e38a50
+  grid-column-start: 2
+  grid-column-end: 3
+  grid-row-start: 1
+  grid-row-end: 2
+#w-node-a0ba965692b9, #w-node-a0ba965692ba, #w-node-a0ba965692be
+  grid-column-start: 1
+  grid-column-end: 2
+  grid-row-start: 1
+  grid-row-end: 2
+#w-node-a0ba965692c5
+  grid-column-start: 3
+  grid-column-end: 4
+  grid-row-start: 1
+  grid-row-end: 2
+#w-node-a0ba965692ca
+  grid-column-start: 2
+  grid-column-end: 3
+  grid-row-start: 1
+  grid-row-end: 2
+@media (max-width: 767px)
+  .w-col
+   width: 100%
+   left: auto
+   right: auto
+  .w-row, .w-container .w-row
+   margin-left: 0
+   margin-right: 0 
+  .w-col-7
+    margin-top: 40px
