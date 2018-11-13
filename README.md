@@ -1,1 +1,1 @@
-# insu-s-website
+# This is the master branch for avant garde's website
